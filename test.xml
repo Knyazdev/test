@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://uws.provider.com/">
+    <SOAP-ENV:Body>
+        <ns1:GetInformationArguments>
+            <password>Paysys123</password>
+            <username>paysys</username>
+            <parameters>
+                <paramKey>clientId</paramKey>
+                <paramValue>998973307879</paramValue>
+            </parameters>
+            <serviceId>1</serviceId>
+        </ns1:GetInformationArguments>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
